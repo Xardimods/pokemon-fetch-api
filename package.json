@@ -1,0 +1,26 @@
+{
+  "name": "talendig-personal-webiste",
+  "version": "1.0.0",
+  "description": "Bootcamp's first homework about Web Development. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "Homework.",
+    "Talendig",
+    "HTML",
+    "SCSS",
+    "SASS",
+    "Bootcamp"
+  ],
+  "author": "Enyel de Jesús Liranzo Lugo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.70.0"
+  }
+}

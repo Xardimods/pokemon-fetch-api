@@ -1,0 +1,9 @@
+@use "../system-design/variables" as v;
+
+h1 {
+    color: v.$black;
+}
+
+body {
+    background-color: v.$white;
+}
