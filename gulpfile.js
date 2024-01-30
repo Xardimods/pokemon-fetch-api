@@ -1,10 +1,14 @@
 const {src, dest, watch} = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
+const plumber = require("gulp-plumber"); 
 
 function css (done) {
 
     // Identify the scss file
     src("src/scss/**/*.scss")
+
+        // Adding Plumber
+        .pipe(plumber())
 
         // Compile it
         .pipe(sass())
@@ -12,7 +16,7 @@ function css (done) {
         // Save it 
         .pipe(dest("build/css"));
 
-    done(); // To done the script
+    done(); // Callback to end the function
 }
 
 function dev (done) {
