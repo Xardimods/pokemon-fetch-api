@@ -1,24 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enyel's Personal Wwebsite</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 
 <body>
-    <h1>This is a website with HTML, SCSS and JavaScript</h1>
-    <picture>
-        <source srcset="build/img/neom-XDtzu1D2P8c-unsplash.avif" type="image/avif">
-        <source srcset="build/img/neom-XDtzu1D2P8c-unsplash.webp" type="image/webp">
-        <img width="500" height="300" src="build/img/neom-XDtzu1D2P8c-unsplash.jpg" alt="An Image">
-    </picture>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quam necessitatibus dolor culpa, aspernatur a iusto similique ipsa distinctio dolore voluptas voluptatum inventore accusamus reiciendis aliquam possimus officia nostrum soluta autem alias facere harum blanditiis ullam. Atque doloremque consequuntur similique.</p>
+    <header class="header">
+        <nav class="nav-bar">
+            <picture class="nav-bar-images">
+                <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.avif" type="image/avif">  
+                <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.webp" type="image/webp">
+                <img width="200" height="200" src="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.png" alt="Enyel Liranzo's User Profile Picture">
+            </picture>
+        <menu class="links">
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#learning">Aprendizaje</a></li>
+            <li><a href="#social-media">Media</a></li>
+        </menu>
+        </nav>
+    </header>
+
+    <main>
+        <h1>¡Hola, soy Enyel Liranzo!</h1>
+        <h2>Estudiante de Informática y formando un camino al desarollo Backend.</h2>
+        <picture>
+            <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.avif" type="image/avif">
+            <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.webp" type="image/webp">
+            <img width="300" height="300" src="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.jpg" alt="Enyel Liranzo Real Life Picture">
+        </picture>
+
+        <section id="about">
+            <h2>Sobre Mí</h2>
+
+            <picture>
+                <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.avif" type="image/avif">
+                <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.webp" type="image/webp">
+                <img width="300" height="300" src="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.jpg" alt="Enyel Liranzo Real Life Picture">
+            </picture>
+
+            <p>
+                Mi nombre es Enyel Liranzo Lugo. Tengo 19 años y soy estudiante de Informática en la UASD (Universidad Autónoma de Santo Domingo)
+            </p>
+            <p>
+                Actualmente me encuentro estudiando las bases de la programación Backend, aprendiendo conceptos, buenas prácticas y construyendo proyectos pequeños pero interesantes. 
+            </p>
+        </section>
+
+        <section id="learning">
+            <h2>Mi Aprendizaje</h2>
+
+            <h3>Tecnologías que actualmente estoy aprendiendo:</h3>
+
+            <ul class="tech-images">
+                
+            </ul>
+        </section>
+
+        <section id="social-media">
+            <h2>Social Media (Redes Sociales)</h2>
+
+            <ul>
+                <li><a target="_blank" href="https://github.com/Xardimods">
+                    <img width="100" height="100" src="build/img/github.svg" alt="GitHub">
+                </a></li>
+                <li><a target="_blank" href="https://twitter.com/Xardimods">
+                    <img width="100" height="100" src="build/img/twitter.svg" alt="Twitter">
+                </a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/enyel-de-jes%C3%BAs-liranzo-lugo-076aa922b/"> 
+                    <img width="100" height="100" src="build/img/linkedin.svg" alt="LinkedIn">
+                </a></li>
+                <li><a target="_blank" href="https://www.youtube.com/channel/UCUmKtaT9LHPFZv_4rqmU7yg">
+                    <img width="100" height="100" src="build/img/youtube.svg" alt="YouTube">
+                </a></li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <nav class="nav-bar">
+            <menu class="links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#learning">Aprendizaje</a></li>
+                <li><a href="#social-media">Media</a></li>
+            </menu>
+            </nav>
+        </footer>
+    </main>
 
     <script src="build/js/app.js"></script>
 </body>

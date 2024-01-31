@@ -41,6 +41,15 @@ function css (done) {
     done(); // Callback to end the function
 }
 
+function transportSvg (done) {
+
+    src("src/img/**/*.svg")
+    // .pipe(cache(imagemin(options)))
+    .pipe(dest("build/img"));
+
+    done(); 
+}
+
 function optimizeImages (done) {
 
     const options = {
@@ -103,6 +112,7 @@ function dev (done) {
 }
 
 exports.css = css;
+exports.transportSvg = transportSvg;
 exports.compileJavaScript = compileJavaScript;
 exports.optimizeImages = optimizeImages;
 exports.convertToWebp = convertToWebp;

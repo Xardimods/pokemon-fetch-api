@@ -1,10 +1,38 @@
 @use "../system-design/variables" as v;
 
-h1 {
-    color: v.$black;
-    // text-transform: uppercase;
+.header {
+    background-color: #fb8c8c;
+    width: 100%;
 }
 
-body {
-    background-color: v.$white;
+.nav-bar {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; 
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-bar-images img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+
+    li {
+        list-style: none;
+        
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
 }

@@ -1,8 +1,2 @@
-console.log("Tu madre!");
-
-function saludate (name) {
-    return `Hi, ${name}!`;
-}
-
-console.log(saludate("Enyel"));
+function createImages(){const e=document.querySelector(".tech-images"),t=["html","css","javascript","sass","java","php","mysql"];for(let n=0;n<=t.length-1;n++){const a=document.createElement("li");a.innerHTML=`\n        <img loading="lazy" width="100" height="100" src="build/img/${t[n]}.svg" alt="${t[n]}">\n        `,e.appendChild(a)}}document.addEventListener("DOMContentLoaded",()=>{createImages()});
 //# sourceMappingURL=app.js.map
