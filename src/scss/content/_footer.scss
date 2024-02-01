@@ -1,0 +1,13 @@
+.footer {
+    background-color: #000000;
+
+    menu li > a {
+        background-color: #000;
+        color: #fff;
+
+        &:hover {
+            background-color: #f57777;
+            color: #000;
+        }
+    }
+}
