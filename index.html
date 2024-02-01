@@ -11,11 +11,13 @@
 
     <header class="header">
         <nav class="nav-bar">
-            <picture class="nav-bar-images">
-                <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.avif" type="image/avif">  
-                <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.webp" type="image/webp">
-                <img width="200" height="200" src="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.png" alt="Enyel Liranzo's User Profile Picture">
-            </picture>
+            <a href="#">
+                <picture class="nav-bar-images">
+                    <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.avif" type="image/avif">  
+                    <source srcset="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.webp" type="image/webp">
+                    <img width="200" height="200" src="build/img/close-up-hands-clad-in-traditional-samurai-gauntlets-gripping-a-katana-handle-intricate-patterns-o-429717613.png" alt="Enyel Liranzo's User Profile Picture">
+                </picture>
+            </a>
         <menu class="links">
             <li><a href="#about">Sobre Mí</a></li>
             <li><a href="#learning">Aprendizaje</a></li>
@@ -24,33 +26,43 @@
         </nav>
     </header>
 
-    <main>
-        <h1>¡Hola, soy Enyel Liranzo!</h1>
-        <h2>Estudiante de Informática y formando un camino al desarollo Backend.</h2>
-        <picture>
-            <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.avif" type="image/avif">
-            <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.webp" type="image/webp">
-            <img width="300" height="300" src="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.jpg" alt="Enyel Liranzo Real Life Picture">
-        </picture>
-
-        <section id="about">
-            <h2>Sobre Mí</h2>
-
-            <picture>
-                <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.avif" type="image/avif">
-                <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.webp" type="image/webp">
-                <img width="300" height="300" src="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.jpg" alt="Enyel Liranzo Real Life Picture">
-            </picture>
-
-            <p>
-                Mi nombre es Enyel Liranzo Lugo. Tengo 19 años y soy estudiante de Informática en la UASD (Universidad Autónoma de Santo Domingo)
-            </p>
-            <p>
-                Actualmente me encuentro estudiando las bases de la programación Backend, aprendiendo conceptos, buenas prácticas y construyendo proyectos pequeños pero interesantes. 
-            </p>
+    <main class="main">
+        <section class="start">
+            <div class="presentation">
+                <div class="introduction">
+                    <h1>¡Hola, soy Enyel Liranzo!</h1>
+                    <h2>Estudiante de Informática y formando un camino al desarollo Backend.</h2>
+                </div>
+                <picture>
+                    <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.avif" type="image/avif">
+                    <source srcset="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.webp" type="image/webp">
+                    <img width="300" height="300" src="build/img/WhatsApp Image 2024-01-31 at 11.11.06_1a4af43a.jpg" alt="Enyel Liranzo Real Life Picture">
+                </picture>
+            </div>
         </section>
 
-        <section id="learning">
+        <section class="about" id="about">
+            <h2>Sobre Mí</h2>
+
+            <div class="backend-about-me">
+                <picture>
+                    <source srcset="build/img/shahadat-rahman-BfrQnKBulYQ-unsplash.avif" type="image/avif">
+                    <source srcset="build/img/shahadat-rahman-BfrQnKBulYQ-unsplash.webp" type="image/webp">
+                    <img width="500" height="300" src="build/img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt="Backend Development Image">
+                </picture>
+    
+                <div class="backend-text">
+                    <p>
+                        Mi nombre es Enyel Liranzo Lugo. Tengo 19 años y soy estudiante de Informática en la UASD (Universidad Autónoma de Santo Domingo)
+                    </p>
+                    <p>
+                        Actualmente me encuentro estudiando las bases de la programación Backend, aprendiendo conceptos, buenas prácticas y construyendo proyectos pequeños pero interesantes. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning" id="learning">
             <h2>Mi Aprendizaje</h2>
 
             <h3>Tecnologías que actualmente estoy aprendiendo:</h3>
@@ -60,7 +72,7 @@
             </ul>
         </section>
 
-        <section id="social-media">
+        <section class="social-media" id="social-media">
             <h2>Social Media (Redes Sociales)</h2>
 
             <ul>

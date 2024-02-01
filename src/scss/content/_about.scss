@@ -1,0 +1,26 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    h2 {
+        font-size: 50px;
+        // margin-bottom: 100px;
+    }
+}
+
+.backend-about-me {
+    display: flex;
+    column-gap: 50px;
+    margin: 0 300px;
+    align-items: center;
+
+    .backend-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
