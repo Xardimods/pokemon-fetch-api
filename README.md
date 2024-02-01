@@ -1,3 +1,16 @@
+# Things you need to do to start the proyect
+
+## You need to: 
+
+- Have installed Node
+- Use the command `npm install` to install the packages
+- Have installed the **Live Server** extention. 
+
+And then, you will see the page!
+
+
+---
+
 # Talendig Bootcamp Homework
 
 If you need see this proyect, you can clone it, install the Node modules files, run "npm run dev/ npx run dev" and see the proyect with the Live Server extension. 
