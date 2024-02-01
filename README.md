@@ -4,6 +4,7 @@
 
 - Have installed Node
 - Use the command `npm install` to install the packages
+- Use the command `npm run dev` to start the project. 
 - Have installed the **Live Server** extention. 
 
 And then, you will see the page!
