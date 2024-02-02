@@ -1,0 +1,12 @@
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .start {
+        height: 110vh;
+    }
+
+    .presentation {
+        width: 80%;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+}
