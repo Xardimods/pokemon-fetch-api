@@ -1,0 +1,16 @@
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .mobile-menu-slide {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        background-color: #955d5d;
+        width: 100%;
+        height: 95dvh;
+
+        .mobile-menu-slide__links {
+            display: block;
+        }
+    }
+}

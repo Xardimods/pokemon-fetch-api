@@ -1,6 +1,8 @@
 .header {
     background-color: #fb8c8c;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-bar {
@@ -11,6 +13,18 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-slide {
+    display: none;
+
+    .mobile-menu-slide__links {
+        display: none;
+    }
 }
 
 .nav-bar-images img {
