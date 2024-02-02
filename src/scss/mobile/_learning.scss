@@ -1,0 +1,30 @@
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .learning {
+        margin-top: 0;
+        height: 110vh;
+
+        h2 {
+            margin-top: 20px;
+        }
+    }
+
+    .tech-section h3 {
+        margin: 10px 20px 50px 20px;
+    }
+
+    .social-media ul {
+        flex-direction: column;
+    }
+
+    .tech-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .tech-images {
+        flex-direction: column;
+    }
+
+}

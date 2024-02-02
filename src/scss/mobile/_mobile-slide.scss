@@ -11,6 +11,23 @@
 
         .mobile-menu-slide__links {
             display: block;
+
+            li {
+                list-style: none;
+                margin-bottom: 50px;
+
+                &:first-child {
+                    margin-top: 50px;
+                }
+
+                a {
+                    color: #ffffff;
+                    // text-decoration: none;
+                    font-size: 40px;
+                    font-weight: 700;
+                    
+                }
+            }
         }
     }
 }
