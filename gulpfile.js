@@ -56,7 +56,7 @@ function optimizeImages (done) {
         optimizationLevel: 3
     };
 
-    src("src/img/**/*.{png,jpg}")
+    src("src/img/**/*.{png,jpg,ico}")
     .pipe(cache(imagemin(options)))
     .pipe(dest("build/img"));
 
