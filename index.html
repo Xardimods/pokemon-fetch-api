@@ -10,18 +10,18 @@
 
     <body>
 
-        <h1 class="title">Welcome to SCSS</h1>
+        <h1 class="title">Welcome to Pokémon Searcher</h1>
 
-        <h2>Search your Pokémon!</h2>
+        <h2 class="text-searcher">Search your Pokémon!</h2>
         <br>
-        <input type="text" id="pokemonName" placeholder="Enter your pokémon">
-        <button class="button">Submit!</button>
 
-        <br>
-        <br>
-        <br>
+        <div class="input">
+            <input class="pokemonName" type="text" id="pokemonName" placeholder="Enter your pokémon">
+            <button class="button">Submit!</button>
+        </div>
+
         <p>Your pokémon is: <span id="mypokemonName"></span></p>
-        <img src="" alt="Pokémon Sprite" id="pokemonSprite">
+        <img width="250" height="250" src="" alt="Pokémon Sprite" id="pokemonSprite">
 
         <script src="build/js/app.js"></script>
     </body>

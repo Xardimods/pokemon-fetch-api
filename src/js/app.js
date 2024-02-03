@@ -1,8 +1,12 @@
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("pokemonName").value = "";
+})
+
 const button = document.querySelector(".button");
 button.addEventListener("click", () => {
     
     const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
-    
+
     // Time to fetch data!
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
         .then((response) => {
